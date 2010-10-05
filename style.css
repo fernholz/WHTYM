@@ -1,0 +1,149 @@
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start Actual Styling */
+
+body{
+	background: #cacaca;
+	color: #333333;
+	font-family: "Helvetica Neue", Helvetica, "Arial Black", arial, sans-serif;
+	font-size: 16px;
+}
+
+#header{
+	background: #2a79c3;
+	border-bottom: 1px dotted #cacaca;
+	color: #eaeaea;
+	font-size: 18px;
+	height: 100px;
+	margin-bottom: 160px;
+	width: 100%;
+}
+	
+	#header-inner{
+		margin: 0 auto;
+		width: 960px;
+	}
+		#header-inner h1{
+			float: left;
+			font-size: 44px;
+			letter-spacing: 1px;
+			line-height: 100px;
+			word-spacing: -5px;
+		}
+		#header-inner h2{
+			font-size: 36px;
+			line-height: 63px;
+			padding-top: 38px;
+		}
+		.smaller-font{
+			font-size: 80%;
+		}
+		
+#content{
+	width: 100%;
+}
+	#content-inner{
+		margin: 0 auto;
+		width: 960px;
+	}
+	#content-inner img{
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+#footer{
+	background: #2a79c3;
+	border-top: 1px dotted #cacaca;
+	color: #eaeaea;
+	height: 30px;
+	width: 100%;
+}
+	#footer-inner{
+		margin: 0 auto;
+		width: 960px;
+	}
+	#footer-inner p{
+		font-size: 16px;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+/* Sticky Footer */
+* {margin: 0; padding: 0;}
+html, body, #wrapper { height: 100%; }
+
+body > #wrapper {height: auto; min-height: 100%;}
+
+#main { padding-bottom: 31px; }  /* must be same height as the footer */
+
+#footer {
+	position: relative;
+	margin-top: -31px; /* negative value of footer height */
+	height: 30px;
+	clear:both;} 
+
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
