@@ -12,7 +12,7 @@ __Instructions__
 4. Commit - include some sort of commit message please
 5. Push 
 
-_*the site will be updated every 5 minutes - see your changes at [whathappenedtoyouman.com](http://whathappendedtoyouman.com)
+*the site will be updated every 5 minutes - see your changes at [whathappenedtoyouman.com](http://whathappendedtoyouman.com)
 
 Please, don't be evil.
 ======================
