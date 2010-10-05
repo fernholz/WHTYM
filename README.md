@@ -1,8 +1,5 @@
-WHTYM Site Repo
-===============
-
-Aimed at the WL Dev Team
-------------------------
+WHTYM Site Repo - Aimed at the WL Dev Team
+===============   ------------------------
 
 __Instructions__
 
